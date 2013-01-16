@@ -1,0 +1,246 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#containt{
+    width: 1000px;
+    height: 800px;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+#left{
+    width: 160px;
+    height: 550px;
+    float: left;
+}
+#top{
+    background-color: #000000;
+    width: 160px;
+    height: 160px;
+    margin-top: 0px;
+}
+#top1{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    font-size: 16px;
+}
+#top2{
+    margin-top:10px;
+    padding-left: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: "黑体";
+}
+#top3{
+    margin-top: 40px;
+    padding-left: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: "黑体";
+}
+.zhong{
+    width: 150px;
+    height: 186px;
+    margin-top: 30px;
+}
+.zhong ul .li1{
+    width: 158px;
+    height: 28px;
+    margin-left: -40px;
+    border: 1px solid silver;
+}
+.zhong ul .li2{
+    color: black;
+    width: 158px;
+    height: 29px;
+    margin-left: -40px;
+    border: 1px solid silver;
+    border-top:0px;
+}
+.li11{
+    width: 15px;
+    padding-top: 5px;
+    margin-left: 15px;
+    float: left;
+    color: black;
+}
+.li12{
+    padding-top: 5px;
+    margin-left: 0px;
+    padding-left: 5px;
+    font-size: 14px;
+    width: 70px;
+    color: black;
+    font-weight: bold;
+    float: left;
+}
+.li13{
+    padding-top: 8px;
+    margin-left: 0px;
+    padding-left: 5px;
+    font-size: 10px;
+    color: #666666;
+    width: 40px;
+    float: left;
+}
+.li14{
+    padding-top: 8px;
+    margin-left: 0px;
+    padding-left: 20px;
+    font-size: 10px;
+    color: #666666;
+    width: 40px;
+    float: left;
+}
+.li22{
+    margin-left: 0px;
+    margin-top: 3px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    float: left;
+}
+.li23{
+    margin-left: 0px;
+    margin-top: 5px;
+    height: 28px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    float: left;
+}
+.li33{
+    float: left;
+    margin-top: 5px;
+    margin-left: 0px;
+    padding-left: 6px;
+    color: black;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+#three{
+    margin-top: 20px;
+}
+#four{
+    margin-top: 10px;
+}
+#right1{
+    margin-left: 60px;
+    width: 200px;
+    height: 1500px;
+    float: left;
+}
+#right11{
+    margin-top: 70px;
+    width: 200px;
+    height: 50px;
+}
+#right1top1{
+    font-size: 25px;
+    font-weight: bold;
+}
+#right1top2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+}
+#tupian1{
+    margin-top: 40px;
+    width: 200px;
+    height: 800px;
+}
+.jieshi{
+    color: #666666;
+    margin-top: 20px;
+    width: 170px;
+    height: 140px;
+    font-size: 3px;
+}
+.lione,.litwo{
+    float:left;
+    width: 40px;
+    font-size: 10px;
+}
+.lithree{
+    float:left;
+    clear:left;
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+}
+.lifour{
+    float: left;
+    width: 100px;
+    font-size: 10px;
+}
+.lifive{
+    float: left;
+    width: 170px;
+    font-size: 10px;
+    margin-left: 40px;
+    margin-top: -20px;
+    word-spacing: -10px;
+}
+.ul2{
+    list-style: none;
+    margin-left: -40px
+}
+.ul2 li{
+    line-height: 20px;
+    display: block;
+}
+.span1{
+    display:inline-block;    width: 50px;
+    color: #666;
+    font-family: "黑体";
+    float: left;
+}
+.span2{
+    display: inline-block;
+    color: #666;
+    float: left;
+}
+.right2span{
+    display: block;
+
+    color: #666;
+    float: left;
+}
+.right2span2{
+    display: block;
+    padding-left: 0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: #666;
+    float: left;
+}
+.right2{
+    margin-top: 160px;
+    margin-left: 60px;
+    width: 200px;
+    height: 800px;
+    float: left;
+    white-space: nowrap;
+}
+#footer{
+    border-top: 1.5px solid silver;
+    border-bottom: 1.5px solid silver;
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    width: 950px;
+    height: 100px;
+    float: left;
+}
+#footer #vv{
+    margin-top: 43px;
+    margin-left: 0px;
+}
