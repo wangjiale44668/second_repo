@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#box1{
+    width: 150px;
+    height: 150px;
+    border: 1px solid green;
+    float: left;
+}
+#box2{
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    float:left;
+}
+#box3{
+    width: 150px;
+    height: 150px;
+    border: 1px solid yellow;
+    clear: left;
+}
+#yangshi{
+    font-size: 30px;
+    color: green;
+    float: left;
+    line-height: 0.8em;
+}

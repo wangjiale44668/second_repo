@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+    min-width: 800px;
+}
+#box{
+    height: 90%;
+    min-height: 600px;
+    width: 600px;
+    margin: 0px auto;
+    position: relative;
+    border: 1px solid #8b4513;
+}
+#box1{
+    width: 300px;
+    height: 200px;
+    border: 1px solid green;
+}
+#bottom{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #8b4513;
+    margin: 0px auto;
+    margin-top: 200px;
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+}

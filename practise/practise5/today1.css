@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 100%;
+    margin: 0px auto;
+}
+#header{
+    height: 100px;
+    background-color: #9c6;
+    margin-bottom:5px;
+}
+#menu{
+    height: 30px;
+    background: #643;
+    margin-bottom: 5px;
+}
+#mainContent{
+    height: 500px;
+    margin-bottom: 5px;
+}
+#sidebar{
+    float: left;
+    width: 200px;
+    height: 500px;
+    background: #af9;
+}
+#content{
+    margin-left: 205px !important;
+    margin-left: 202px;
+    height: 500px;
+    background: #ffa;
+}

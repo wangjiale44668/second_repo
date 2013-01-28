@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    margin: 0px auto;
+    background: url("./html练习/img/10.jpg");
+    width: 1000px;
+    height: 1600px
+}
+#top{
+    width: 1000px;
+    height: 50px;
+    background:url("./html练习/img/14.png");
+}
+.top1{
+    width: 1000px;
+    height: 2px;
+    margin-top: 30px;
+    border-top: 1px dotted black;
+
+}
+#middle{
+    width: 1000px;
+    height:1500px;
+}
+#middle1{
+    width: 1000px;
+    height: 200px;
+
+}
+#middle11{
+    margin-left: 30px;
+    padding-top: 60px;
+    width: 580px;
+    float: left;
+}
+#middle12{
+    width: 300px;
+    height: 160px;
+    margin-top:20px;
+    margin-left: 10px;
+    float: left;
+    border-left: 2px dotted gray;
+}
+#middle13{
+    margin-left: 50px;
+}
+#middle2{
+    width: 978px;
+    height: 415px;
+    margin: 0px auto;
+    margin-top: 10px;
+    border: 2px dotted gray;
+}
+.qingchu{
+    clear: both;
+}
+#middle3{
+    width: 1000px;
+    height:400px ;
+    margin-top: 30px;
+
+}
+#middle3 #left{
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+#left11{
+    width: 150px;
+    height: 180px;
+    float: left;
+    margin-left: 10px;
+}
+#left12{
+    float: left;
+}
+#left21{
+    width: 150px;
+    height: 180px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+#left22{
+    float: left;
+    margin-top: 60px;
+}
+ #right{
+    width: 800px;
+    height: 400px;
+    float: left;
+}
+#right1{
+    width: 790px;
+    margin-left: 5px;
+    font-family:Verdana,Geneva,Arial,sans-serif;
+    font-weight:bold;
+    line-height:150%;
+}
+#right11{
+    float:right ;
+    margin-right: 15px;
+}
+#right2{
+    width: 800px;
+    height: 500px;
+    margin-top: 100px;
+}
+.right21{
+    width: 215px;
+    height: 280px;
+    float: left;
+    margin-left: 20px;
+}
+.right22{
+    width: 215px;
+    height: 280px;
+    float: left;
+    margin-left: 40px;
+}
+.right23{
+    font-family:Verdana,Geneva,Arial,sans-serif;
+    font-weight:bold;
+    margin-left: -10px;
+    white-space: nowrap;
+}
+.right24{
+    margin-left: 40px;
+}
+#middle21{
+    margin:3px ;
+}
+#bottom{
+    width: 1000px;
+    height: 60px;
+    margin-top: 0px;
+    background:url("./html练习/img/14.png");
+
+}
+#botrom1{
+    text-align: center;
+    color: white;
+    font-family:Verdana,Geneva,Arial,sans-serif;
+    font-weight: bold;
+    font-size:90%;
+    padding-top: 20px;
+}
