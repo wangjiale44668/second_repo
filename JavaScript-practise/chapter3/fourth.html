@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        //<![CDATA[
+//        var floatNum1=1.;
+//        var floatNum2=10.0;
+//        alert(floatNum1);//解析为--1
+//        alert( floatNum2);//解析为--10
+
+//        var floatNum3=1.5e100;
+//        alert(isFinite(floatNum3));//ture
+
+//        alert(isNaN(NaN));//true
+//        alert(isNaN(10));//false
+//        alert(isNaN("10"));//false
+//        alert(isNaN(false));//false
+        var num1=Number("hello world");//NaN
+        var num2=Number("");//0
+        var num3=Number("000011");//11
+        var num4=Number("true");//1
+
+        var num5=parseInt("123aaa",10);//123
+        var num6=parseInt("10",8);//8
+        var num7=parseInt("10",16);//16
+        var num8=parseInt("070",8);//56
+
+
+        var num9=parseFloat("1234asd");//1234
+        var num10=parseFloat("0xa");//0
+        var num11=parseFloat("22.1.1");//22.1
+        var num12=parseFloat("09.2");//9.2
+
+
+        //]]>
+    </script>
+</head>
+<body>
+<p>
+<h3>MUNBER类型</h3>
+1、ECMAScript会将小数点后无数值的浮点型（1.）以及本身为整数的数（10.0）都解释为整数。<br/>
+2、可以用isFinite（）函数来判断某个数值是否超过浏览的数值范围。<br />
+3、isNaN（）用于判断参数是否“不是数值”。<br />
+4、有三个函数可以把非数值转化为数值：Number(),parseInt().parseFloat().后两个专门用于吧字符串转化为数值<br />
+第一个可以用于任何数据类型。使用parseInt()函数时，一般加上基数（进制）.由于在不同浏览器上的解析方式不同，<br />
+最好加上基数
+</p>
+</body>
+</html>

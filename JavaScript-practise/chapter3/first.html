@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>This is my first page including JS</title>
+    <script type="text/javascript">
+        //<![CDATA[
+        function test(){
+           message="hi";//全局变量
+        }
+        test();
+        alert(message);//输出"hi"
+        var message="some string";
+        var age=20;
+        alert(typeof message);
+        alert(typeof(age));
+        alert(typeof age);
+        //]]>
+    </script>
+</head>
+<body>
+<p>
+    <h3>局部变量与全局变量</h3>
+    如果在定义message时加上var，则将成为局部变量。
+    并且，函数结束后，局部变量就被销毁，也不会输出"hi".
+</p>
+<p>
+    <h3>typeof的用法</h3>
+    typeof用于检测变量的数据的类型。
+</p>
+</body>
+</html>
