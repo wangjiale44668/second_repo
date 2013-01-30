@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Admin Theme 1.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="http://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css">
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/css/font-awesome.css" rel="stylesheet">
+    <link href="./assets/css/index.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/jiansuo.css" rel="stylesheet" type="text/css" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<div class="masthead">
+
+    <div class="container bainju"><!--top中的文字区域的位置-->
+
+        <div class="masthead-top clearfix topdebianju"><!-- 第一部分的位置-->
+            <ul class="nav nav-pills pull-right">
+                <li>
+                    <a href="#"><i class="icon-globe"></i> LOGOUT</a>
+                </li>
+            </ul>
+            <h1><img src="./assets/img/图片1.png" style="width: 80px" alt="picture" /> ユーザーログイン</h1>
+        </div>
+
+        <div class="navbar">
+            <div class="navbar-inner topleftc"><!--颜色控制-->
+                <div class="container topleftbianju "><!--top中的下面部分距左边的距离-->
+
+                    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li class="active">
+                                <a href="index.html"><i class="icon-home"></i> Dashboard</a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"> ユーザー管理 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="listing.html">ユーザー検索</a></li>
+                                    <li><a href="listing.html">新規追加</a></li>
+                                    <li><a href="listing.html">編集・削除</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"> クライアント管理 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="listing.html">クライアント検索</a></li>
+                                    <li><a href="orders.html">新規追加</a></li>
+                                    <li><a href="listing.html">編集・削除</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 物件管理 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="report.html">物件検索</a></li>
+                                    <li><a href="report.html">新規追加</a></li>
+                                    <li><a href="report.html">編集・削除</a></li>
+                                    <li><a href="report.html">CSVアップロード</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">売上管理 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="listing.html">期間集計</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"> ページ管理 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="listing.html">新規追加</a></li>
+                                    <li><a href="listing.html">編集・削除</a></li>
+                                    <li><a href="listing.html">メール追加</a></li>
+                                    <li><a href="listing.html">メール編集・削除</a></li>
+                                    <li><a href="listing.html">エリア編集</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="secondary-masthead">
+    <span class="middle">ユーザー管理/ユーザー検索</span>
+</div>
+
+<div class="main_all">
+    <form>
+        <h6>ユーザー検索条件を指定してください</h6>
+
+        <table class="tbstyle1" >
+            <tr>
+                <td >名前（漢字）</td>
+                <td style="padding-right:50px " >
+                    <input type="text"/></td>
+                <td >名前（フリガナ）</td>
+                <td>
+                    <input type="text" /></td>
+            </tr>
+            <tr>
+                <td>メールアドレス</td>
+                <td><input type="text" /></td>
+                <td>電話番号</td>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <td>希望坪数</td>
+                <td>
+                    <form>
+                        <select>
+                            <option></option>
+                        </select>
+                    </form>
+                </td>
+                <td>希望賃料</td>
+                <td>
+                    <form>
+                        <select>
+                            <option></option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>希望坪数</td>
+                <td>
+                    <form>
+                        <select>
+                            <option></option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <table width="1000px">
+            <tr>
+                <td rowspan="4" width="150" style="vertical-align: top">希望業態</td>
+                <td><input type="checkbox" />レストラン?ダイニングバー</td>
+                <td><input type="checkbox" />レストラン?ダイニングバー</td>
+                <td> <input type="checkbox" />鉄板焼き?お好み焼き</td>
+                <td> <input type="checkbox" />喫茶?軽食（カフェ）</td>
+                <td> <input type="checkbox" />カラオケ?パ</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" />そば?うどん</td>
+                <td><input type="checkbox" />和食</td>
+                <td><input type="checkbox" />焼肉</td>
+                <td><input type="checkbox" />中華料理</td>
+                <td><input type="checkbox" />イタリア料理</td>
+            </tr>
+            <tr>
+                <td> <input type="checkbox" />レストラン?ダイニングバー</td>
+                <td><input type="checkbox" />鉄板焼き?お好み焼き</td>
+                <td><input type="checkbox" />喫茶?軽食（カフェ）</td>
+                <td> <input type="checkbox" />喫茶?軽食（カフェ）</td>
+                <td> <input type="checkbox" />喫茶?軽食（カフェ）</td>
+            </tr>
+            <tr>
+                <td> <input type="checkbox" />喫茶?軽食（カフェ）</td>
+                <td> <input type="checkbox" />喫茶?軽食（カフェ）</td>
+                <td> <input type="checkbox" />喫茶?軽食（カフェ）</td>
+                <td> <input type="checkbox" />喫茶?軽食（カフェ）</td>
+                <td> <input type="checkbox" />喫茶?軽食（カフェ）</td>
+            </tr>
+        </table>
+        <div style="width: 800px;height: 300px;border: 1px solid black;margin: 0px auto"></div>
+        <table width="809" height="422" >
+            <tr>
+                <td>希望駅</td>
+                <td>路線を選択してください</td>
+                <td>駅を選択してください</td>
+            </tr>
+            <tr>
+                <td>選択1</td>
+                <td>
+                    <select>
+                        <option></option>
+                    </select>
+                </td>
+                <td>
+                    <select>
+                        <option></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>選択1</td>
+                <td>
+                    <select>
+                        <option></option>
+                    </select>
+                </td>
+                <td>
+                    <select>
+                        <option></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>選択1</td>
+                <td>
+                    <select>
+                        <option></option>
+                    </select>
+                </td>
+                <td>
+                    <select>
+                        <option></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>選択1</td>
+                <td>
+                    <select>
+                        <option></option>
+                    </select>
+                </td>
+                <td>
+                    <select>
+                        <option></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>選択1</td>
+                <td>
+                    <select>
+                        <option></option>
+                    </select>
+                </td>
+                <td>
+                    <select>
+                        <option></option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/excanvas.min.js"></script>
+<script src="assets/js/jquery.flot.min.js"></script>
+<script src="assets/js/jquery.flot.resize.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var d1 = [];
+        d1.push([0, 20]);
+        d1.push([1, 16]);
+        d1.push([2, 17]);
+        d1.push([3, 25]);
+        d1.push([4, 51]);
+        d1.push([5, 57]);
+        d1.push([6, 46]);
+        d1.push([7, 36]);
+        d1.push([8, 27]);
+        d1.push([9, 36]);
+        d1.push([10, 38]);
+        d1.push([11, 41]);
+        d1.push([12, 45]);
+        d1.push([13, 48]);
+        d1.push([14, 40]);
+        d1.push([15, 36]);
+        d1.push([16, 34]);
+
+        $.plot($("#placeholder"), [ d1 ], { grid: { backgroundColor: 'white', color: '#999', borderWidth: 1, borderColor: '#DDD' }, colors: ["#6ECBE2"], series: { lines: { show: true, fill: true, fillColor: "rgba(110, 203, 226, 0.5)" } } });
+    });
+</script>
+
+</body>
+</html>

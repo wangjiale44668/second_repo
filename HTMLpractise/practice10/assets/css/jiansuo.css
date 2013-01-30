@@ -1,0 +1,19 @@
+.main_all{
+    width: 1024px;
+    height: 1500px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid #000000;
+    color: #000000;
+}
+h6{
+    color: #000000;
+}
+.tbstyle1{
+    border: 1px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+input{
+    width: 260px;
+}

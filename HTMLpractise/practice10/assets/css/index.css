@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+}
+.masthead {
+    position: relative;
+    z-index: 1;
+    padding: 30px 0 10px 0;
+    background: #000000;
+    -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.28);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.28);
+}
+.topleftbianju{/***top中的下面部分距左边的距离*****/
+    margin-left: 30px;
+}
+.bainju{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.topdebianju{
+    margin-bottom: 10px;
+}
+.topleftc{
+    width: 1200px;
+    background:gray;
+}
+
+.secondary-masthead {
+    padding: 15px 0;
+    background-image: url("../img/top3.png");
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.18);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.18);
+}
+.middle{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+ }
+.active,.dropdown{
+    background-image: url(../img/top1.png);
+    background-repeat: repeat;
+    width: 150px;
+    margin-left: 5px;
+    color: #ffffff;
+}
